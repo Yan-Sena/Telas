@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Telas</string>
+    <string name="welcome_back">welcome_back</string>
+    <string name="lorem_ipsum_dolor_sit_amet_aut_tenetur_quia_et_eligendi_cupiditate_non_quaerat_voluptatem_sed_repellendus_necessitatibus_aut_galisum_voluptatum_quo_maiores_voluptates_nam_fugiat_voluptates_in_consequatur_corporis_ut_nisi_recusandae">lorem_ipsum_dolor_sit_amet_aut_tenetur_quia_et_eligendi_cupiditate_non_quaerat_voluptatem_sed_repellendus_necessitatibus_aut_galisum_voluptatum_quo_maiores_voluptates_nam_fugiat_voluptates_in_consequatur_corporis_ut_nisi_recusandae</string>
+    <string name="todo">todo</string>
+    <string name="visando_o_futuro">visando_o_futuro</string>
+    <string name="ys_corporation">YS_Corporation</string>
 </resources>
