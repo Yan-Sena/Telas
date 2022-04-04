@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    android:layout_gravity="center"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:text="welcome_back"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="1sp"
+        android:text="lorem_ipsum_dolor_sit_amet_aut_tenetur_quia_et_eligendi_cupiditate_non_quaerat_voluptatem_sed_repellendus_necessitatibus_aut_galisum_voluptatum_quo_maiores_voluptates_nam_fugiat_voluptates_in_consequatur_corporis_ut_nisi_recusandae"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+
+    <ImageView
+        android:layout_width="157dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="120sp"
+        android:src="@drawable/Logo"
+        android:contentDescription="todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="YS_Corporation"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        android:layout_marginStart="45sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="visando_o_futuro"
+        android:textColor="#FFE4E4"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="0dp"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
