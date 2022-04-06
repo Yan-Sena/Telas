@@ -5,4 +5,12 @@
     <string name="todo">todo</string>
     <string name="visando_o_futuro">visando_o_futuro</string>
     <string name="ys_corporation">YS_Corporation</string>
+    <string name="welcome_back2">Welcome_Back2</string>
+    <string name="visando_o_futuro2">Visando o futuro2</string>
+    <string name="logar">Logar</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="login_com_rede_social">Login Com Rede Social</string>
+    <string name="welcome_b4ck">Welcome_Back</string>
+    <string name="login_com_rede_social2">Login Com Rede Social</string>
+    <string name="usuario">Usuario</string>
 </resources>

@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/backg"
     android:layout_gravity="center"
+    android:background="@drawable/backg"
 
-    >
+    android:orientation="vertical">
 
 
     <TextView
+        android:id="@+id/Welcome_Back"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:text="@string/welcome_back"
-        android:textColor="@color/white"
-        android:textSize="45sp"
-        tools:ignore="TextContrastCheck,TextContrastCheck"
         android:layout_marginStart="35sp"
         android:layout_marginTop="25sp"
-        />
+        android:text="@string/welcome_b4ck"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="318dp"
         android:layout_height="100sp"
         android:layout_gravity="center"
         android:layout_marginStart="10sp"
@@ -34,44 +34,92 @@
         android:textSize="10sp"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-
     <ImageView
-        android:layout_width="157dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="120sp"
-        android:src="@drawable/Logo"
-        android:contentDescription="@string/todo" />
+        android:layout_width="260dp"
+        android:layout_height="113dp"
+
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo"
+        android:foregroundGravity="center"
+        android:src="@drawable/logof"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginStart="45sp"
+        android:layout_marginTop="20sp"
         android:text="@string/ys_corporation"
         android:textColor="@color/white"
         android:textSize="40sp"
-        tools:ignore="TextContrastCheck,TextContrastCheck"
-        android:layout_marginStart="45sp"
-        android:layout_marginTop="20sp"
-        />
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="@string/visando_o_futuro"
-        android:textColor="#FFE4E4"
-        android:textSize="25sp"
-        tools:ignore="TextContrastCheck,TextContrastCheck"
         android:layout_marginStart="70sp"
         android:layout_marginTop="0dp"
-        />
+        android:text="@string/visando_o_futuro2"
+        android:textColor="#FFE4E4"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
 
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="240sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/logar" />
+
+    <Button
+        android:id="@+id/containedButton2"
+        android:layout_width="240sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/criar_conta" />
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="29sp"
+        android:gravity="center_horizontal"
+        android:text="@string/login_com_rede_social"
+        android:textColor="#FFE4E4"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="33dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/face"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="33dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/twitter"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="33dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/linkedin"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+    </LinearLayout>
 
 </LinearLayout>
